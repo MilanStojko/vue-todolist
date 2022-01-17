@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f6f8f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    padding: 15px;
+    margin-bottom: 3%;
+    background-color: white;
+}
+header img{
+    margin-left: 10px;
+    width: 5%;
+    vertical-align: middle;
+}
+#logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    vertical-align: middle;
+}
+.sec1{
+    border-bottom: #f6f8f9;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    margin: 0 15%;
+    width: 70%;
+    padding: 15px 45px;
+    background-color: white;
+}
+.blu{
+    background-color: #47adf1;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+.bianco{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+.sec2{
+    margin: 0 15%;
+    width: 70%;
+    padding: 45px 45px 0px 45px;
+    background-color: white;
+}
+.titolino{
+    font-size: 30px;
+    margin-bottom: .5%;
+    font-weight: bold;
+}
+.segnodelc{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.scritta{
+    padding: 10px;
+    font-size: 20px;
+}
+.check{
+    margin-right: .5%;
+    color: #6ac3ad;
+    border-radius: 50%;
+    border-color: #6ac3ad;
+    border-style: solid;
+    border-width: 1px;
+}
+.x{
+    margin-right: .5%;
+    color: #eb5953;
+    border-radius: 50%;
+    border-color: #eb5953;
+    border-style: solid;
+    border-width: 1px;
+}
+.editorial, .q1goals, .recruiting, .mobile, .website, .sales {
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: #FFF;
+    font-size: 12px;
+}
+.editorial {
+    background-color: #45abea;
+}
+.textarea{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px 10px;
+}
