@@ -15,7 +15,7 @@
     <main id="app">
         <section class="sec1">
             <div>
-                <input type="text" v-model="input" class="textarea">
+                <input type="text" v-model="input" class="textarea" @keyUp.enter="addSection">
                 <select name="" id="" v-model="currentSection">
                     <option :value="index" v-for="(elemento, index) in todo">{{elemento.section}}</option>
                 </select>
@@ -23,13 +23,13 @@
                 <button type="button" class="bianco" @click="addSection">Add Section</button>
             </div>
         </section> 
-        <section class="sec2" v-for="(element, qindex) in todo">
+        <section class="sec2" v-for="(element, qindex) in todo" >
             <div class="titolino" >
-                <span class="segnodelc">&#9660;</span>
-                <span>{{element.section}}</span>
+                <span class="canc" @click="deleteSection(qindex)">X</span>
+                <span :class='{"fatta": element.sdone}' @click="fattaSection(qindex)">{{element.section}}</span>
             </div>
-            <div class="scritta" v-for="(elemento, windex) in todo">
-                <span>{{elemento.items.text}}</span>
+            <div class="scritta" v-for="(elemento, windex) in element.items">
+                <span :class='{"fatta": elemento.done}' @click="fattaTask(windex)">{{elemento.text}}</span>
             </div>
         </section> 
     </main>

@@ -55,7 +55,7 @@ header img{
     margin-bottom: .5%;
     font-weight: bold;
 }
-.segnodelc{
+.canc{
     font-size: 20px;
     margin-right: 5px;
 }
@@ -94,4 +94,7 @@ header img{
     border-radius: 10px;
     font-size: 20px;
     padding: 5px 10px;
+}
+.fatta{
+    text-decoration: line-through;
 }
